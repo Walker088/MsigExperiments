@@ -1,0 +1,3 @@
+[submodule "rawdata/aws"]
+	path = rawdata/aws
+	url = https://github.com/Walker088/msig-aws.git
