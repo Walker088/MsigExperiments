@@ -1,0 +1,1991 @@
+nohup: ignoring input
+INFO [08-10|03:33:19] Starting peer-to-peer node               instance=Geth/v1.6.7-unstable-66a15725/linux-amd64/go1.9.6
+INFO [08-10|03:33:19] Allocated cache and file handles         database=/home/walker088/msigcodes/msig/examples/data/node16/geth/chaindata cache=128 handles=1024
+WARN [08-10|03:33:19] Upgrading chain database to use sequential keys 
+INFO [08-10|03:33:19] Initialised chain configuration          config="{ChainID: 2235 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Metropolis: <nil> Engine: ethash}"
+INFO [08-10|03:33:19] config bft is                            bft=true
+WARN [08-10|03:33:19] Upgrading db log bloom bins 
+INFO [08-10|03:33:19] Bloom-bin upgrade completed              elapsed=66.498µs
+INFO [08-10|03:33:19] Initialising Ethereum protocol           versions="[63 62]" network=2234
+INFO [08-10|03:33:19] Loaded most recent local header          number=0 hash=5d5970…5b57c8 td=1048576
+INFO [08-10|03:33:19] Loaded most recent local full block      number=0 hash=5d5970…5b57c8 td=1048576
+INFO [08-10|03:33:19] Loaded most recent local fast block      number=0 hash=5d5970…5b57c8 td=1048576
+INFO [08-10|03:33:19] in NewTxPool, call resetState 
+INFO [08-10|03:33:19] in NewTxPool, call pool.eventLoog() 
+INFO [08-10|03:33:19] Allocated cache and file handles         database=/home/walker088/msigcodes/msig/examples/data/node16/geth/bftData   cache=128 handles=1024
+INFO [08-10|03:33:19] Database conversion successful 
+INFO [08-10|03:33:19] addVote to                               height=0 round=0 from=0x3dcba25aa14104c477d9583a0e436e3d94c39dd2 success=true cm.coinbase=0x3dcba25aa14104c477d9583a0e436e3d94c39dd2
+INFO [08-10|03:33:19] Starting P2P networking 
+INFO [08-10|03:33:19] HTTP endpoint opened: http://127.0.0.1:8560 
+ready: 1 need: 10.666667
+INFO [08-10|03:33:19] consensusManager not ready  
+ready: 1 need: 10.666667
+INFO [08-10|03:33:19] RLPx listener up                         self="enode://f44a2b970fb4133a8fe4c13af119fea15523edcc51261f6e11d7a672598595db6545074f70a7b6a68d77452a876c3035695ec9bc2f81030a1777734109e88f98@[::]:30318?discport=0"
+INFO [08-10|03:33:19] ---In BFTvalidatorCommitBlock--- 
+INFO [08-10|03:33:19] IPC endpoint opened: /home/walker088/msigcodes/msig/examples/data/node16/geth.ipc 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] send Ready msg 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] send Ready msg 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [08-10|03:33:19] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:19] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+ready: 4 need: 10.666667
+INFO [08-10|03:33:20] consensusManager not ready  
+ready: 4 need: 10.666667
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [24 23 70 84 83 49 90 57 214 45 228 54 232 174 129 52 228 217 194 205]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [144 240 177 235 187 161 193 147 106 255 122 175 32 167 135 143 249 224 75 108]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [24 23 70 84 83 49 90 57 214 45 228 54 232 174 129 52 228 217 194 205]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [24 23 70 84 83 49 90 57 214 45 228 54 232 174 129 52 228 217 194 205]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [224 252 4 250 45 52 166 107 119 159 213 206 231 72 38 128 50 161 70 192]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [24 23 70 84 83 49 90 57 214 45 228 54 232 174 129 52 228 217 194 205]
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] send Ready msg 
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [24 23 70 84 83 49 90 57 214 45 228 54 232 174 129 52 228 217 194 205]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [71 147 242 155 156 255 244 144 109 108 68 186 161 243 128 46 87 45 75 17]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [24 23 70 84 83 49 90 57 214 45 228 54 232 174 129 52 228 217 194 205]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [08-10|03:33:20] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [08-10|03:33:20] ------Received ReadMsg------ 
+AddReady from: [0 196 15 226 9 84 35 80 155 159 217 183 84 50 49 88 175 35 16 243]
+fatal error: concurrent map read and map write
+AddReady from: [61 203 162 90 161 65 4 196 119 217 88 58 14 67 110 61 148 195 157 210]
+
+goroutine 306 [running]:
+runtime.throw(0xee9bb5, 0x21)
+	/usr/local/go/src/runtime/panic.go:605 +0x95 fp=0xc430693238 sp=0xc430693218 pc=0x432155
+runtime.mapaccess2(0xd7bb00, 0xc4201c8a20, 0xc430693304, 0xf31023af, 0x1)
+	/usr/local/go/src/runtime/hashmap.go:413 +0x24e fp=0xc430693280 sp=0xc430693238 pc=0x40e8ce
+github.com/ethereum/go-ethereum/consensus/bft.(*ConsensusManager).AddReady(0xc42022e120, 0xc430d4a390)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_manager.go:587 +0x28e fp=0xc430693388 sp=0xc430693280 pc=0xaf55ce
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc420302820, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:343 +0x580 fp=0xc430693d48 sp=0xc430693388 pc=0xaffcc0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc420302820, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515 fp=0xc430693ec0 sp=0xc430693d48 pc=0xaff3e5
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc420093ea0, 0x1744d60, 0xc4203e7e30, 0x7f45a2f8a000, 0xc4200b2620)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e fp=0xc430693f08 sp=0xc430693ec0 pc=0xb0598e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4203e7e30, 0xc420093ea0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d fp=0xc430693fd0 sp=0xc430693f08 pc=0x98d86d
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:2337 +0x1 fp=0xc430693fd8 sp=0xc430693fd0 pc=0x463771
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 1 [chan receive]:
+github.com/ethereum/go-ethereum/node.(*Node).Wait(0xc4201fdb00)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/node/node.go:545 +0x7f
+main.geth(0xc4203e3180, 0xf58d10, 0xb2d05e00)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:209 +0x51
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.HandleAction(0xd4a1c0, 0xf59e78, 0xc4203e3180, 0xc4203e3180, 0xc4204b9f40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/app.go:485 +0xd2
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.(*App).Run(0xc420256000, 0xc420096000, 0x15, 0x16, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/app.go:259 +0x695
+main.main()
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:197 +0x55
+
+goroutine 20 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*nonrecursiveTree).dispatch(0xc4200b0180, 0xc4200b00c0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:36 +0x18f
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.newNonrecursiveTree
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:29 +0x149
+
+goroutine 21 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*nonrecursiveTree).internal(0xc4200b0180, 0xc4200b0120)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:81 +0x8b
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.newNonrecursiveTree
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:30 +0x178
+
+goroutine 22 [syscall]:
+os/signal.signal_recv(0x0)
+	/usr/local/go/src/runtime/sigqueue.go:131 +0xa6
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:22 +0x22
+created by os/signal.init.0
+	/usr/local/go/src/os/signal/signal_unix.go:28 +0x41
+
+goroutine 23 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics.(*meterArbiter).tick(0x1829b00)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics/meter.go:221 +0x31
+created by github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics.NewMeter
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics/meter.go:40 +0x127
+
+goroutine 35 [syscall]:
+syscall.Syscall6(0xe8, 0xb, 0xc42003376c, 0x1, 0xffffffffffffffff, 0x0, 0x0, 0xc420080240, 0xc4200337a8, 0x1)
+	/usr/local/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.EpollWait(0xb, 0xc42003376c, 0x1, 0x1, 0xffffffffffffffff, 0x1, 0x0, 0x0)
+	/usr/local/go/src/syscall/zsyscall_linux_amd64.go:349 +0x77
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).loop(0xc4200de000, 0xc420080240)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:193 +0x8b
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:133 +0x131
+
+goroutine 12 [select]:
+github.com/ethereum/go-ethereum/accounts/keystore.(*watcher).loop(0xc42000d060)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/watch.go:91 +0x4fc
+created by github.com/ethereum/go-ethereum/accounts/keystore.(*watcher).start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/watch.go:52 +0x5d
+
+goroutine 36 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).send(0xc4200de000, 0xc420080240)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:253 +0xc0
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:136 +0x184
+
+goroutine 37 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).send(0xc4200de000, 0xc420080240)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:253 +0xc0
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:136 +0x184
+
+goroutine 13 [select]:
+github.com/ethereum/go-ethereum/accounts/keystore.(*KeyStore).updater(0xc420120000)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/keystore.go:203 +0x104
+created by github.com/ethereum/go-ethereum/accounts/keystore.(*KeyStore).Subscribe
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/keystore.go:190 +0x12c
+
+goroutine 14 [runnable]:
+github.com/ethereum/go-ethereum/accounts/usbwallet.(*LedgerHub).updater(0xc4201200f0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/usbwallet/ledger_hub.go:203 +0x5a
+created by github.com/ethereum/go-ethereum/accounts/usbwallet.(*LedgerHub).Subscribe
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/usbwallet/ledger_hub.go:188 +0x12c
+
+goroutine 15 [select]:
+github.com/ethereum/go-ethereum/accounts.(*Manager).update(0xc4201ca9c0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/manager.go:95 +0x1d1
+created by github.com/ethereum/go-ethereum/accounts.NewManager
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/manager.go:68 +0x5c3
+
+goroutine 16 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.(*BufferPool).drain(0xc42029a540)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:206 +0x172
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.NewBufferPool
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:237 +0x195
+
+goroutine 25 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).compactionError(0xc4201b6780)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:90 +0x119
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:139 +0x4bd
+
+goroutine 26 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mpoolDrain(0xc4201b6780)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_state.go:96 +0x13b
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:140 +0x4df
+
+goroutine 27 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).tCompaction(0xc4201b6780)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:804 +0x2c8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:146 +0x65e
+
+goroutine 28 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mCompaction(0xc4201b6780)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:751 +0x192
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:147 +0x680
+
+goroutine 72 [IO wait]:
+internal/poll.runtime_pollWait(0x7f45a5ac3c70, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4345ac298, 0x72, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:85 +0xae
+internal/poll.(*pollDesc).waitRead(0xc4345ac298, 0xc43056e000, 0x800, 0x800)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).ReadFrom(0xc4345ac280, 0xc43056e000, 0x800, 0x800, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:170 +0x19a
+net.(*netFD).readFrom(0xc4345ac280, 0xc43056e000, 0x800, 0x800, 0x45d8e0, 0x7f45a5b018b0, 0xc42031484b, 0xc4203148c8, 0x416e57)
+	/usr/local/go/src/net/fd_unix.go:208 +0x5e
+net.(*UDPConn).readFrom(0xc4201cc670, 0xc43056e000, 0x800, 0x800, 0x2, 0xc4203148c0, 0x451d60, 0xc4203148f8)
+	/usr/local/go/src/net/udpsock_posix.go:47 +0x6a
+net.(*UDPConn).ReadFrom(0xc4201cc670, 0xc43056e000, 0x800, 0x800, 0x800, 0x800, 0x87, 0x0, 0x0)
+	/usr/local/go/src/net/udpsock.go:118 +0x72
+github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/httpu.(*HTTPUClient).Do(0xc4201c3f00, 0xc4345c4000, 0x7d2b7500, 0x3, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/httpu/httpu.go:107 +0x6af
+github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/ssdp.SSDPRawSearch(0xc4201c3f00, 0xef93d0, 0x31, 0x2, 0x3, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/ssdp/ssdp.go:53 +0x5bc
+github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp.DiscoverDevices(0xef93d0, 0x31, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/goupnp.go:66 +0xf1
+github.com/ethereum/go-ethereum/p2p/nat.discover(0xc434570300, 0xef93d0, 0x31, 0xf58f40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/natupnp.go:140 +0x4d
+created by github.com/ethereum/go-ethereum/p2p/nat.discoverUPnP
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/natupnp.go:117 +0xc0
+
+goroutine 30 [select]:
+github.com/ethereum/go-ethereum/core.(*BlockChain).update(0xc42024ea80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/core/blockchain.go:1237 +0x10f
+created by github.com/ethereum/go-ethereum/core.NewBlockChain
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/core/blockchain.go:168 +0xe45
+
+goroutine 31 [select]:
+github.com/ethereum/go-ethereum/core.(*TxPool).eventLoop(0xc420067950)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_pool.go:224 +0x1cc
+created by github.com/ethereum/go-ethereum/core.NewTxPool
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_pool.go:205 +0x65a
+
+goroutine 32 [select]:
+github.com/ethereum/go-ethereum/core.(*TxPool).expirationLoop(0xc420067950)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_pool.go:905 +0x34e
+created by github.com/ethereum/go-ethereum/core.NewTxPool
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_pool.go:206 +0x67c
+
+goroutine 33 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*Downloader).qosTuner(0xc4201761e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:1503 +0x352
+created by github.com/ethereum/go-ethereum/eth/downloader.New
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:206 +0xb29
+
+goroutine 66 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*Downloader).stateFetcher(0xc4201761e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/statesync.go:74 +0x15a
+created by github.com/ethereum/go-ethereum/eth/downloader.New
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:207 +0xb4b
+
+goroutine 67 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.(*BufferPool).drain(0xc4202641c0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:206 +0x172
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.NewBufferPool
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:237 +0x195
+
+goroutine 82 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).compactionError(0xc4201b7c80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:90 +0x119
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:139 +0x4bd
+
+goroutine 83 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mpoolDrain(0xc4201b7c80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_state.go:96 +0x13b
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:140 +0x4df
+
+goroutine 84 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).tCompaction(0xc4201b7c80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:804 +0x2c8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:146 +0x65e
+
+goroutine 85 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mCompaction(0xc4201b7c80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:751 +0x192
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:147 +0x680
+
+goroutine 86 [sleep]:
+time.Sleep(0x1dcd6500)
+	/usr/local/go/src/runtime/time.go:65 +0x130
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).announce(0xc420251500)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:201 +0xc4
+created by github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:138 +0x75
+
+goroutine 87 [chan receive]:
+github.com/ethereum/go-ethereum/miner.(*worker).update(0xc4200d8600)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:233 +0x80
+created by github.com/ethereum/go-ethereum/miner.newWorker
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:142 +0x464
+
+goroutine 88 [chan receive]:
+github.com/ethereum/go-ethereum/miner.(*worker).wait(0xc4200d8600)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:261 +0x89
+created by github.com/ethereum/go-ethereum/miner.newWorker
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:144 +0x486
+
+goroutine 89 [chan receive]:
+github.com/ethereum/go-ethereum/miner.(*Miner).update(0xc4201de780)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/miner/miner.go:81 +0x1a8
+created by github.com/ethereum/go-ethereum/miner.New
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/miner/miner.go:69 +0x26d
+
+goroutine 90 [IO wait]:
+internal/poll.runtime_pollWait(0x7f45a5ac3f70, 0x72, 0xffffffffffffffff)
+	/usr/local/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4200d6198, 0x72, 0xc43455dd00, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:85 +0xae
+internal/poll.(*pollDesc).waitRead(0xc4200d6198, 0xffffffffffffff00, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Accept(0xc4200d6180, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:335 +0x1e2
+net.(*netFD).accept(0xc4200d6180, 0x13cd758, 0xc43057d900, 0x182d1a0)
+	/usr/local/go/src/net/fd_unix.go:238 +0x42
+net.(*TCPListener).accept(0xc42000e138, 0xc43455deb0, 0x40a7eb, 0xc4201c7ce0)
+	/usr/local/go/src/net/tcpsock_posix.go:136 +0x2e
+net.(*TCPListener).Accept(0xc42000e138, 0x0, 0xc42004ac40, 0x174f6e0, 0xc4200900d8)
+	/usr/local/go/src/net/tcpsock.go:247 +0x49
+github.com/ethereum/go-ethereum/p2p.(*Server).listenLoop(0xc42004ac40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:641 +0x278
+created by github.com/ethereum/go-ethereum/p2p.(*Server).startListening
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:432 +0x159
+
+goroutine 91 [chan receive]:
+github.com/ethereum/go-ethereum/p2p/nat.Any.func1(0xc4201c59e8, 0xc42049fca0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:158 +0xc8
+github.com/ethereum/go-ethereum/p2p/nat.(*autodisc).wait.func1()
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:238 +0x4c
+sync.(*Once).Do(0xc4201c59d0, 0xc42049fd20)
+	/usr/local/go/src/sync/once.go:44 +0xbe
+github.com/ethereum/go-ethereum/p2p/nat.(*autodisc).wait(0xc4201c59c0, 0xc42049fd90, 0x430a29)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:236 +0x50
+github.com/ethereum/go-ethereum/p2p/nat.(*autodisc).AddMapping(0xc4201c59c0, 0xea2da3, 0x3, 0x766e, 0x766e, 0xeae662, 0xc, 0x1176592e000, 0x3, 0x766e)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:204 +0x2f
+github.com/ethereum/go-ethereum/p2p/nat.Map(0x174ba20, 0xc4201c59c0, 0xc420023ec0, 0xea2da3, 0x3, 0x766e, 0x766e, 0xeae662, 0xc)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:108 +0x32f
+github.com/ethereum/go-ethereum/p2p.(*Server).startListening.func1(0xc42004ac40, 0xc4202a50e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:437 +0x8b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).startListening
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:436 +0x1fb
+
+goroutine 92 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Server).run(0xc42004ac40, 0x174b9a0, 0xc4202b8d20)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:501 +0x60f
+created by github.com/ethereum/go-ethereum/p2p.(*Server).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:417 +0x761
+
+goroutine 93 [select]:
+github.com/ethereum/go-ethereum/contracts/release.(*ReleaseService).checker(0xc4201dedc0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/contracts/release/release.go:118 +0x15f
+created by github.com/ethereum/go-ethereum/contracts/release.(*ReleaseService).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/contracts/release/release.go:98 +0x3f
+
+goroutine 94 [chan receive]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).txBroadcastLoop(0xc4200a1520)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:754 +0xc9
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:212 +0xb9
+
+goroutine 95 [chan receive]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).minedBroadcastLoop(0xc4200a1520)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:743 +0x59
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:215 +0x151
+
+goroutine 96 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).syncer(0xc4200a1520)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/sync.go:143 +0x1b6
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:218 +0x173
+
+goroutine 97 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).txsyncLoop(0xc4200a1520)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/sync.go:109 +0x2bc
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:219 +0x195
+
+goroutine 98 [chan receive]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).BFTvalidatorCommitBlock(0xc4200a1520)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:320 +0x6d
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:220 +0x1b7
+
+goroutine 99 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*PublicDownloaderAPI).eventLoop(0xc4202996e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/api.go:63 +0x336
+created by github.com/ethereum/go-ethereum/eth/downloader.NewPublicDownloaderAPI
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/api.go:49 +0xe7
+
+goroutine 100 [select]:
+github.com/ethereum/go-ethereum/eth/filters.(*EventSystem).eventLoop(0xc420095ac0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/filter_system.go:407 +0x490
+created by github.com/ethereum/go-ethereum/eth/filters.NewEventSystem
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/filter_system.go:100 +0x104
+
+goroutine 101 [chan receive]:
+github.com/ethereum/go-ethereum/eth/filters.(*PublicFilterAPI).timeoutLoop(0xc4201dee10)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/api.go:85 +0x124
+created by github.com/ethereum/go-ethereum/eth/filters.NewPublicFilterAPI
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/api.go:75 +0x1b4
+
+goroutine 102 [IO wait]:
+internal/poll.runtime_pollWait(0x7f45a5ac3eb0, 0x72, 0xffffffffffffffff)
+	/usr/local/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4201efd18, 0x72, 0xc434568d00, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:85 +0xae
+internal/poll.(*pollDesc).waitRead(0xc4201efd18, 0xffffffffffffff00, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Accept(0xc4201efd00, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:335 +0x1e2
+net.(*netFD).accept(0xc4201efd00, 0x0, 0xc4202b7dd0, 0x13da1f8)
+	/usr/local/go/src/net/fd_unix.go:238 +0x42
+net.(*UnixListener).accept(0xc4200d5740, 0xc42034a120, 0x51, 0x3)
+	/usr/local/go/src/net/unixsock_posix.go:162 +0x32
+net.(*UnixListener).Accept(0xc4200d5740, 0x51, 0x0, 0x0, 0x0)
+	/usr/local/go/src/net/unixsock.go:241 +0x49
+github.com/ethereum/go-ethereum/node.(*Node).startIPC.func1(0xc4201fdb00, 0x1749ee0, 0xc4200d5740, 0xc4200d47e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/node/node.go:337 +0xf2
+created by github.com/ethereum/go-ethereum/node.(*Node).startIPC
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/node/node.go:333 +0x2e7
+
+goroutine 103 [IO wait]:
+internal/poll.runtime_pollWait(0x7f45a5ac3df0, 0x72, 0xffffffffffffffff)
+	/usr/local/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc434540d98, 0x72, 0xc42049e500, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:85 +0xae
+internal/poll.(*pollDesc).waitRead(0xc434540d98, 0xffffffffffffff00, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Accept(0xc434540d80, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:335 +0x1e2
+net.(*netFD).accept(0xc434540d80, 0x4175b8, 0x30, 0xe18da0)
+	/usr/local/go/src/net/fd_unix.go:238 +0x42
+net.(*TCPListener).accept(0xc42000f700, 0x5188da, 0xe18da0, 0xc420300bd0)
+	/usr/local/go/src/net/tcpsock_posix.go:136 +0x2e
+net.(*TCPListener).Accept(0xc42000f700, 0xc42008e010, 0xd70f60, 0x170f700, 0xe85fc0)
+	/usr/local/go/src/net/tcpsock.go:247 +0x49
+net/http.(*Server).Serve(0xc43453d1e0, 0x1749ea0, 0xc42000f700, 0x0, 0x0)
+	/usr/local/go/src/net/http/server.go:2695 +0x1b2
+created by github.com/ethereum/go-ethereum/node.(*Node).startHTTP
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/node/node.go:403 +0x4a8
+
+goroutine 104 [chan receive]:
+github.com/ethereum/go-ethereum/cmd/utils.StartNode.func1(0xc4201fdb00)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/utils/cmd.go:69 +0xd4
+created by github.com/ethereum/go-ethereum/cmd/utils.StartNode
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/utils/cmd.go:65 +0xb7
+
+goroutine 105 [chan receive]:
+main.startNode.func1(0xc4201fdb00, 0xc434544ba0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:251 +0x374
+created by main.startNode
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:234 +0x28b
+
+goroutine 106 [semacquire]:
+sync.runtime_notifyListWait(0xc4200ac4c0, 0xc400000000)
+	/usr/local/go/src/runtime/sema.go:507 +0x110
+sync.(*Cond).Wait(0xc4200ac4b0)
+	/usr/local/go/src/sync/cond.go:56 +0x80
+io.(*pipe).read(0xc4200ac480, 0xc420274000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/usr/local/go/src/io/pipe.go:47 +0xc6
+io.(*PipeReader).Read(0xc42000f708, 0xc420274000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/usr/local/go/src/io/pipe.go:130 +0x4c
+encoding/json.(*Decoder).refill(0xc42004a000, 0xd73d60, 0x14)
+	/usr/local/go/src/encoding/json/stream.go:152 +0x114
+encoding/json.(*Decoder).readValue(0xc42004a000, 0x0, 0x0, 0x4175b8)
+	/usr/local/go/src/encoding/json/stream.go:128 +0x275
+encoding/json.(*Decoder).Decode(0xc42004a000, 0xd87600, 0xc4201c3ec0, 0x0, 0x0)
+	/usr/local/go/src/encoding/json/stream.go:57 +0x78
+github.com/ethereum/go-ethereum/rpc.(*jsonCodec).ReadRequestHeaders(0xc420092e10, 0x0, 0x0, 0x0, 0xc420325d00, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/json.go:126 +0xeb
+github.com/ethereum/go-ethereum/rpc.(*Server).readRequest(0xc4202a53b0, 0x174fdc0, 0xc420092e10, 0x1, 0xdd02c0, 0xc4201c5180, 0x174b420, 0xc434574810, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:395 +0x5f
+github.com/ethereum/go-ethereum/rpc.(*Server).serveRequest(0xc4202a53b0, 0x174fdc0, 0xc420092e10, 0x0, 0x3, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:179 +0x2e2
+github.com/ethereum/go-ethereum/rpc.(*Server).ServeCodec(0xc4202a53b0, 0x174fdc0, 0xc420092e10, 0x3)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:235 +0x7c
+created by github.com/ethereum/go-ethereum/rpc.DialInProc.func1
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/inproc.go:29 +0x2c1
+
+goroutine 107 [select]:
+github.com/ethereum/go-ethereum/rpc.(*Client).dispatch(0xc4203e7340, 0x174f800, 0xc420325d30)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:536 +0x440
+created by github.com/ethereum/go-ethereum/rpc.newClient
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:203 +0x358
+
+goroutine 108 [semacquire]:
+sync.runtime_notifyListWait(0xc4200ac580, 0xc400000000)
+	/usr/local/go/src/runtime/sema.go:507 +0x110
+sync.(*Cond).Wait(0xc4200ac570)
+	/usr/local/go/src/sync/cond.go:56 +0x80
+io.(*pipe).read(0xc4200ac540, 0xc4202cc200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/usr/local/go/src/io/pipe.go:47 +0xc6
+io.(*PipeReader).Read(0xc42000f718, 0xc4202cc200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/usr/local/go/src/io/pipe.go:130 +0x4c
+encoding/json.(*Decoder).refill(0xc42004a1c0, 0xd1ac20, 0x0)
+	/usr/local/go/src/encoding/json/stream.go:152 +0x114
+encoding/json.(*Decoder).readValue(0xc42004a1c0, 0x0, 0x0, 0x4175b8)
+	/usr/local/go/src/encoding/json/stream.go:128 +0x275
+encoding/json.(*Decoder).Decode(0xc42004a1c0, 0xd87600, 0xc42015f600, 0x0, 0x0)
+	/usr/local/go/src/encoding/json/stream.go:57 +0x78
+github.com/ethereum/go-ethereum/rpc.(*Client).read.func1(0xdd7660, 0xc42015f620, 0xc420325d30, 0x7f45a2fdc380, 0xc420325d30)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:677 +0x79
+github.com/ethereum/go-ethereum/rpc.(*Client).read(0xc4203e7340, 0x174f800, 0xc420325d30, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:690 +0x152
+created by github.com/ethereum/go-ethereum/rpc.(*Client).dispatch
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:512 +0x71
+
+goroutine 109 [chan receive]:
+github.com/ethereum/go-ethereum/p2p/nat.discoverUPnP(0x766e, 0xeae662)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/natupnp.go:129 +0x101
+github.com/ethereum/go-ethereum/p2p/nat.Any.func1.1(0xc4345455c0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:155 +0x22
+created by github.com/ethereum/go-ethereum/p2p/nat.Any.func1
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:155 +0x5c
+
+goroutine 40 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4304fe1e0, 0x18, 0x4e, 0x173e360, 0xc430579f50, 0xbed343a010f4e77b, 0xb596de7c, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4304fe1e0, 0xc4304f4420)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 164 [sleep]:
+time.Sleep(0x6fbcbeea1)
+	/usr/local/go/src/runtime/time.go:65 +0x130
+github.com/ethereum/go-ethereum/p2p.waitExpireTask.Do(0x6fbcbeea1, 0xc42004ac40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:359 +0x2b
+github.com/ethereum/go-ethereum/p2p.(*waitExpireTask).Do(0xc430528278, 0xc42004ac40)
+	<autogenerated>:1 +0x46
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x173f1a0, 0xc430528278, 0xc42004ac40, 0xc4345456e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:482 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:482 +0x18d
+
+goroutine 71 [IO wait]:
+internal/poll.runtime_pollWait(0x7f45a5ac34f0, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4345ac998, 0x72, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:85 +0xae
+internal/poll.(*pollDesc).waitRead(0xc4345ac998, 0xc430570000, 0x800, 0x800)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).ReadFrom(0xc4345ac980, 0xc430570000, 0x800, 0x800, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:170 +0x19a
+net.(*netFD).readFrom(0xc4345ac980, 0xc430570000, 0x800, 0x800, 0x45d8e0, 0x7f45a5b01f78, 0xc4345de84b, 0xc4345de8c8, 0x416e57)
+	/usr/local/go/src/net/fd_unix.go:208 +0x5e
+net.(*UDPConn).readFrom(0xc4201cc678, 0xc430570000, 0x800, 0x800, 0x2, 0xc4345de8c0, 0x451d60, 0xc4345de8f8)
+	/usr/local/go/src/net/udpsock_posix.go:47 +0x6a
+net.(*UDPConn).ReadFrom(0xc4201cc678, 0xc430570000, 0x800, 0x800, 0x800, 0x800, 0x87, 0x0, 0x0)
+	/usr/local/go/src/net/udpsock.go:118 +0x72
+github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/httpu.(*HTTPUClient).Do(0xc420318100, 0xc4345c4100, 0x7d2b7500, 0x3, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/httpu/httpu.go:107 +0x6af
+github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/ssdp.SSDPRawSearch(0xc420318100, 0xef939f, 0x31, 0x2, 0x3, 0x0, 0x0, 0x0, 0xc420080a18, 0x45d840)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/ssdp/ssdp.go:53 +0x5bc
+github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp.DiscoverDevices(0xef939f, 0x31, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/huin/goupnp/goupnp.go:66 +0xf1
+github.com/ethereum/go-ethereum/p2p/nat.discover(0xc434570300, 0xef939f, 0x31, 0xf58f38)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/natupnp.go:140 +0x4d
+created by github.com/ethereum/go-ethereum/p2p/nat.discoverUPnP
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/natupnp.go:107 +0x7d
+
+goroutine 128 [select]:
+github.com/ethereum/go-ethereum/eth/fetcher.(*Fetcher).loop(0xc4200a15f0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/fetcher/fetcher.go:314 +0x804
+created by github.com/ethereum/go-ethereum/eth/fetcher.(*Fetcher).Start
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/fetcher/fetcher.go:176 +0x3f
+
+goroutine 129 [select, locked to thread]:
+runtime.gopark(0xf5a7b8, 0x0, 0xea5c31, 0x6, 0x18, 0x1)
+	/usr/local/go/src/runtime/proc.go:287 +0x12c
+runtime.selectgo(0xc434569f50, 0xc42034a240)
+	/usr/local/go/src/runtime/select.go:395 +0x1149
+runtime.ensureSigM.func1()
+	/usr/local/go/src/runtime/signal_unix.go:511 +0x220
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:2337 +0x1
+
+goroutine 145 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc420093ae0, 0x18, 0x4e, 0x173e360, 0xc430c6c2d0, 0xbed343a00f126fcc, 0xb3b466cf, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc420093ae0, 0xc43070a480)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 163 [runnable]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305321e0, 0xcfe9a0, 0xc42035e750, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305321e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 165 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305321e0, 0x18, 0x4e, 0x173e360, 0xc430c6c5d0, 0xbed343a00f27b4fe, 0xb3c9abfe, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305321e0, 0xc43052a480)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 166 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305321e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 167 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d6b0, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc431172020, 0x0, 0xc4311303f0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430c6c600, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430c6c600)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc43054c000, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc43054c000, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4305321e0, 0x1744d60, 0xc4201ce150, 0xc42015f620, 0x20002)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201ce150, 0xc4305321e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 168 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4201ce2a0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc43053e360, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc43053e360, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305321e0, 0x1744d60, 0xc4201ce2a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201ce2a0, 0xc4305321e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 210 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4201ce850, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc43053ea20, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc43053ea20, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305324b0, 0x1744d60, 0xc4201ce850, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201ce850, 0xc4305324b0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 176 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305324b0, 0x18, 0x4e, 0x173e360, 0xc4304f7a70, 0xbed343a010caeb89, 0xb56ce28f, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305324b0, 0xc43052b1a0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 177 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305324b0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 175 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305324b0, 0xc42004ac40, 0x174f6e0, 0xc420276048)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305324b0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 180 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc43057a050, 0x18, 0x4e, 0x173e360, 0xc430d4a0f0, 0xbed343a010fb518c, 0xb59d488c, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc43057a050, 0xc4305cc240)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 198 [running]:
+	goroutine running on other thread; stack unavailable
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 179 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc43057a050, 0xc42004ac40, 0x174f6e0, 0xc420090018)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc43057a050)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 181 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc43057a050)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 182 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d3e0, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc430c8fd00, 0x0, 0xc431130120)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430d4a120, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430d4a120)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc4305840a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc4305840a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc43057a050, 0x1744d60, 0xc420204000, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc420204000, 0xc43057a050)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 183 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4202040e0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc43057e2d0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc43057e2d0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc43057a050, 0x1744d60, 0xc4202040e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4202040e0, 0xc43057a050)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 190 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc420093a90, 0x18, 0x4e, 0x173e360, 0xc430d012c0, 0xbed343a0111a6e37, 0xb5bc6546, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc420093a90, 0xc4305cce40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 195 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305a4230, 0xcfe9a0, 0xc42035e750, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305a4230)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 196 [runnable]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305a4230, 0x18, 0x4e, 0x173e360, 0xc430c6da70, 0xbed343a01332d034, 0xb7d4c734, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305a4230, 0xc43059c4e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 197 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305a4230)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 199 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4200b2230, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x15973a4e9e74c169, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc4305f6360, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc4305f6360, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305a4230, 0x1744d60, 0xc4200b2230, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b2230, 0xc4305a4230)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 259 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d620, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc430c8ff80, 0x0, 0xc431130360)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430929a70, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430929a70)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc430620280, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc430620280, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4305a4550, 0x1744d60, 0xc4200b23f0, 0x7f45a2f8a000, 0xc4200b2150)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b23f0, 0xc4305a4550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 208 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305a4550, 0xc42004ac40, 0x174f6e0, 0xc43061e028)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305a4550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 258 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305a4550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 243 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4203e7b90, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x63e219505bbf750, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc4345d0ab0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc4345d0ab0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc420093ae0, 0x1744d60, 0xc4203e7b90, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4203e7b90, 0xc420093ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 39 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4304fe1e0, 0xc42004ac40, 0x174f6e0, 0xc430652010)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4304fe1e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 41 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4304fe1e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 42 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d500, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc430c8fe40, 0x0, 0xc431130240)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430579e90, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430579e90)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc4306580a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc4306580a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4304fe1e0, 0x1744d60, 0xc42020c1c0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc42020c1c0, 0xc4304fe1e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 43 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc42020c2a0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x7f4734b9415e7b5f, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc430510510, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc430510510, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4304fe1e0, 0x1744d60, 0xc42020c2a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc42020c2a0, 0xc4304fe1e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 211 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d860, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc431172200, 0x0, 0xc4311305a0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc4304f7a10, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc4304f7a10)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc43054c140, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc43054c140, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4305324b0, 0x1744d60, 0xc4201ce770, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201ce770, 0xc4305324b0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 218 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc430532550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 216 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc430532550, 0xc43053ea20, 0x8ba, 0xc420299d80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc430532550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 219 [runnable]:
+syscall.Syscall(0x1, 0x1, 0xc4305fa580, 0x57, 0x57, 0x57, 0x0)
+	/usr/local/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.write(0x1, 0xc4305fa580, 0x57, 0x80, 0xc43068f001, 0x0, 0x0)
+	/usr/local/go/src/syscall/zsyscall_linux_amd64.go:1029 +0x55
+syscall.Write(0x1, 0xc4305fa580, 0x57, 0x80, 0x4da5b1, 0xc4305d20c0, 0x76)
+	/usr/local/go/src/syscall/syscall_unix.go:181 +0x49
+internal/poll.(*FD).Write(0xc420092050, 0xc4305fa580, 0x57, 0x80, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:219 +0x14f
+os.(*File).write(0xc420090008, 0xc4305fa580, 0x57, 0x80, 0x20, 0xe81300, 0xc4305d20c0)
+	/usr/local/go/src/os/file_unix.go:233 +0x4e
+os.(*File).Write(0xc420090008, 0xc4305fa580, 0x57, 0x80, 0x7f45a2f127d0, 0x0, 0xc40441a15aa2cb3d)
+	/usr/local/go/src/os/file.go:140 +0x72
+fmt.Fprintln(0x17412e0, 0xc420090008, 0xc43068f338, 0x2, 0x2, 0x14, 0xc430ab8340, 0xc430ab8340)
+	/usr/local/go/src/fmt/print.go:248 +0x8b
+fmt.Println(0xc43068f338, 0x2, 0x2, 0xc430ab8340, 0x0, 0x0)
+	/usr/local/go/src/fmt/print.go:257 +0x57
+github.com/ethereum/go-ethereum/consensus/bft.(*ConsensusManager).AddReady(0xc42022e120, 0xc4309299e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_manager.go:577 +0x14f
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc43054c1e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:343 +0x580
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc43054c1e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc430532550, 0x1744d60, 0xc4201ce8c0, 0x7f45a2f8a000, 0xc4201ce850)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201ce8c0, 0xc430532550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 141 [runnable]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc420093a90, 0xcfe9a0, 0xc42035e750, 0xc42000f780)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc420093a90)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 191 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc420093a90)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 192 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d740, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc4311720c0, 0x0, 0xc431130480)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430d01200, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430d01200)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc420302640, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc420302640, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc420093a90, 0x1744d60, 0xc4203e78f0, 0x0, 0x20002)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4203e78f0, 0xc420093a90)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 193 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4203e79d0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x357172883414c608, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc43057ea20, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc43057ea20, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc420093a90, 0x1744d60, 0xc4203e79d0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4203e79d0, 0xc420093a90)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 242 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc420093ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 144 [runnable]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc420093ae0, 0xc420302640, 0x8ba, 0xc420299d80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc420093ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 266 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305a45f0, 0x18, 0x4e, 0x173e360, 0xc430c6cf90, 0xbed343a011d98d9b, 0xb67b849b, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305a45f0, 0xc43059d800)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 233 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305a4b40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 244 [runnable]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d350, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc430c8fc60, 0x0, 0xc431130090)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430c6c300, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430c6c300)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc4203026e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc4203026e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc420093ae0, 0x1744d60, 0xc4203e7a40, 0x0, 0x20002)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4203e7a40, 0xc420093ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 209 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305a4550, 0x18, 0x4e, 0x173e360, 0xc430929a40, 0xbed343a00f335f4b, 0xb3d5564b, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305a4550, 0xc43059d0e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 255 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc420093ea0, 0xc4305f6e10, 0x8ba, 0xc420299d80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc420093ea0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 307 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4203e7f80, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0xfa5c501f2a51fe77, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc4345d1050, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc4345d1050, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc420093ea0, 0x1744d60, 0xc4203e7f80, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4203e7f80, 0xc420093ea0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 260 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4200b24d0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc4305f6990, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc4305f6990, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305a4550, 0x1744d60, 0xc4200b24d0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b24d0, 0xc4305a4550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 269 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4200b2620, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc4305f6e10, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc4305f6e10, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305a45f0, 0x1744d60, 0xc4200b2620, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b2620, 0xc4305a45f0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 265 [runnable]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305a45f0, 0xc4305f6990, 0x8ba, 0xc420299d80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305a45f0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 268 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e78f0, 0x18, 0x4e, 0x173f260, 0xc430c6cf60, 0x0, 0x0, 0x0, 0xc4345dae88, 0xc420301d10)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e78f0, 0x8, 0xd21ae0, 0xc430c8f6c0, 0x0, 0xc430b79b90)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302640, 0xc430c6cdb0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430c6cdb0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc420302780, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc420302780, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4305a45f0, 0x1744d60, 0xc4200b2540, 0x7f45a2f8a000, 0xc4200b24d0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b2540, 0xc4305a45f0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 267 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305a45f0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 257 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc420093ea0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 275 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305a47d0, 0x18, 0x4e, 0x173e360, 0xc430579ce0, 0xbed343a010e5b223, 0xb587a924, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305a47d0, 0xc4307aa060)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 274 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305a47d0, 0xcfe9a0, 0xc42035e750, 0xc43061e048)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305a47d0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 276 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305a47d0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 277 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d590, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc430c8fee0, 0x0, 0xc4311302d0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430579c20, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430579c20)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc4306203c0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc4306203c0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4305a47d0, 0x1744d60, 0xc4200b2700, 0xc430561200, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b2700, 0xc4305a47d0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 278 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4200b27e0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc4305f7200, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc4305f7200, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305a47d0, 0x1744d60, 0xc4200b27e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b27e0, 0xc4305a47d0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 329 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d470, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc430c8fda0, 0x0, 0xc4311301b0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430c6c1e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430c6c1e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc430620780, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc430620780, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4305a4d70, 0x1744d60, 0xc4200b2b60, 0x7f45a2f8a000, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b2b60, 0xc4305a4d70)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 232 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305a4b40, 0x18, 0x4e, 0x173e360, 0xc430d002a0, 0xbed343a010dc4b0e, 0xb57e420f, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305a4b40, 0xc4305cd920)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 217 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc430532550, 0x18, 0x4e, 0x173e360, 0xc4309299b0, 0xbed343a00d8e2813, 0xb2301f3c, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc430532550, 0xc43052ba40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 291 [runnable]:
+internal/poll.runtime_pollWait(0x7f45a5ac3a30, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4305a9918, 0x72, 0xffffffffffffff00, 0x17436e0, 0x173c770)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:85 +0xae
+internal/poll.(*pollDesc).waitRead(0xc4305a9918, 0xc430b7cd00, 0x4f, 0x4f)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc4305a9900, 0xc430b7cd71, 0x4f, 0x4f, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:126 +0x18a
+net.(*netFD).Read(0xc4305a9900, 0xc430b7cd71, 0x4f, 0x4f, 0x1, 0x0, 0x0)
+	/usr/local/go/src/net/fd_unix.go:202 +0x52
+net.(*conn).Read(0xc43061e070, 0xc430b7cd71, 0x4f, 0x4f, 0x0, 0x0, 0x0)
+	/usr/local/go/src/net/net.go:176 +0x6d
+io.ReadAtLeast(0x7f45a5ac8c30, 0xc43061e070, 0xc430b7cd70, 0x50, 0x50, 0x50, 0xe7cd20, 0x0, 0x7f45a5ac8c30)
+	/usr/local/go/src/io/io.go:309 +0x86
+io.ReadFull(0x7f45a5ac8c30, 0xc43061e070, 0xc430b7cd70, 0x50, 0x50, 0x50, 0x20, 0xc430d3ed40)
+	/usr/local/go/src/io/io.go:327 +0x58
+github.com/ethereum/go-ethereum/p2p.(*rlpxFrameRW).ReadMsg(0xc4305cd560, 0xbed343a790f6393c, 0x7b1bbdc4e, 0x182d1a0, 0x0, 0x0, 0x182d1a0, 0xb58e7f3e, 0x182d1a0, 0x20002)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:646 +0x307
+github.com/ethereum/go-ethereum/p2p.(*rlpx).ReadMsg(0xc43059f6e0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:89 +0x148
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc430532640, 0xc4307f2300)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:212 +0xad
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 256 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc420093ea0, 0x18, 0x4e, 0x173e360, 0xc430d4a360, 0xbed343a0137c33b5, 0xb81e2ac4, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc420093ea0, 0xc43070b5c0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 220 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4201ce9a0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0xaf60f071a3069400, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc43053eea0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc43053eea0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc430532550, 0x1744d60, 0xc4201ce9a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201ce9a0, 0xc430532550)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 292 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc430532640)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 290 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc430532640, 0xc43054c1e0, 0x8ba, 0xc420299d80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc430532640)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 293 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4201cea10, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc43054c280, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:209 +0x92
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc43054c280, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc430532640, 0x1744d60, 0xc4201cea10, 0x0, 0xc42049cf90)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201cea10, 0xc430532640)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 294 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4201ceaf0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0xa570accf46c3586, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc43053f200, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc43053f200, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc430532640, 0x1744d60, 0xc4201ceaf0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4201ceaf0, 0xc430532640)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 322 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305a4b40, 0xcfe9a0, 0xc42035e750, 0xc43061e078)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305a4b40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 234 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).WriteMsg(0xc4203e7e30, 0x18, 0x4e, 0x173f260, 0xc430c6d7d0, 0x0, 0x0, 0x0, 0xc430786488, 0xc430730ae0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:340 +0x11b
+github.com/ethereum/go-ethereum/p2p.Send(0x7f45a2f8a000, 0xc4203e7e30, 0x8, 0xd21ae0, 0xc431172160, 0x0, 0xc431130510)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x10f
+github.com/ethereum/go-ethereum/consensus/bft.(*peer).SendReadyMsg(0xc420302820, 0xc430d001e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_peer.go:16 +0x1c0
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).BroadcastBFTMsg(0xc420251500, 0xe0fc80, 0xc430d001e0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:360 +0x772
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc420251500, 0xc4306206e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:344 +0x5aa
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc420251500, 0xc4306206e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4305a4b40, 0x1744d60, 0xc4200b29a0, 0x7f45a2f8a000, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b29a0, 0xc4305a4b40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 235 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4200b2a80, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0xd1ec0937853b0a28, 0x4a7484aa2de92c6f)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc43057ecf0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc43057ecf0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305a4b40, 0x1744d60, 0xc4200b2a80, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b2a80, 0xc4305a4b40)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
+
+goroutine 328 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).pingLoop(0xc4305a4d70)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:197 +0x163
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:152 +0x117
+
+goroutine 326 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc4305a4d70, 0xcfe9a0, 0xc42035e750, 0xc420299d80)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:161 +0x2fe
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc42004ac40, 0xc4305a4d70)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:758 +0x40
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:550 +0xf49
+
+goroutine 327 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Peer).handle(0xc4305a4d70, 0x18, 0x4e, 0x173e360, 0xc430c6c1b0, 0xbed343a00f0c94ed, 0xb3ae8bf2, 0x182d1a0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:245 +0x176
+github.com/ethereum/go-ethereum/p2p.(*Peer).readLoop(0xc4305a4d70, 0xc4307ab800)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:218 +0x188
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).run
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:151 +0xf2
+
+goroutine 330 [select]:
+github.com/ethereum/go-ethereum/p2p.(*protoRW).ReadMsg(0xc4200b2c40, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:355 +0x148
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handleMsg(0xc4200a1520, 0xc4305f79e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:333 +0xb5
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).handle(0xc4200a1520, 0xc4305f79e0, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:306 +0x9b2
+github.com/ethereum/go-ethereum/eth.NewProtocolManager.func1(0xc4305a4d70, 0x1744d60, 0xc4200b2c40, 0x0, 0x0)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:145 +0x1f2
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4200b2c40, 0xc4305a4d70)
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/home/walker088/msigcodes/msig/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4
